@@ -1,13 +1,7 @@
 {
   "functions": {
-    "app/api/downloads/*.js": {
+    "app/api/downloads/*.ts": {
       "maxDuration": 30
     }
-  },
-  "routes": [
-    {
-      "src": "/downloads/(.*)",
-      "dest": "/api/downloads/$1"
-    }
-  ]
+  }
 } 
