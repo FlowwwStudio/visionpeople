@@ -1,0 +1,13 @@
+{
+  "functions": {
+    "app/api/downloads/*.js": {
+      "maxDuration": 30
+    }
+  },
+  "routes": [
+    {
+      "src": "/downloads/(.*)",
+      "dest": "/api/downloads/$1"
+    }
+  ]
+} 
